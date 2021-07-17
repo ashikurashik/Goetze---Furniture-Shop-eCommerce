@@ -721,7 +721,7 @@ img.secondary{
 
 
 /* deal-area start */
-.text-whit h3{
+.text-white  h3{
 	color: #fff;
 	position: relative;
 }
@@ -732,4 +732,153 @@ img.secondary{
 	width: 50px;
 	background: #c38749;
 	bottom: 0;
+}
+
+/* 
+.deal-slider .slick-list {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 556px;
+}
+.deal-slider .slick-track {
+	width: 100% !important;
+}
+.deal-slider .single-slider.slick-slide.slick-current.slick-active{
+	width: 100% !important;
+}
+
+.deal-slider .product-img{
+	width: 260px;
+	float: left;
+}
+.deal-slider .product-content {
+	padding: 20px;
+	float: right;
+	width: 260px;
+	background: #fff;
+	padding-bottom: 49px;
+	left: -36px;
+	top: -21px;
+}
+.deal-slider .product-content{
+	position: relative;
+}
+.deal-slider .product-action {
+	position: absolute;
+	left: -25px;
+	bottom: 30px;
+	transform: scaleY(1);
+	background: none;
+}
+.deal-slider .product-rating {
+	width: 100%;
+	padding-bottom: 25px;
+}
+.deal-slider .product-price p {
+	border-top: 1px solid #ebebeb;
+	clear: both;
+	color: #222;
+	font-size: 13px;
+	font-weight: 300;
+	margin-bottom: 2px;
+	margin-right: 15px;
+	padding-top: 20px;
+}
+
+.new-price {
+	padding-bottom: 16px;
+	display: inline-block;
+	color: #C38748;
+	font-size: 22px;
+}
+.product-bod {
+	background: #C38749;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 92%;
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: all 0.3s ease 0s;
+	z-index: 9;
+	padding-bottom: -8px;
+	padding-top: 2px;
+	left: 10px;
+}
+.product-bod span {
+	display: inline-block;
+	padding-left: 20px;
+	color: #fff;
+	line-height: 1;
+	font-size: 18px;
+	position: relative;
+	padding-top: 2px;
+}
+.product-bod span::before {
+	position: absolute;
+	content: "";
+	height: 18px;
+	width: 1px;
+	background: #fff;
+	right: -14px;
+	top: 15px;
+}
+.product-bod span p{
+	color: #fff;
+	font-size: 11px;
+}
+.slick-list.draggable {
+	padding-top: 20px;
+}
+
+.deal-area {
+	height: 600px;
+} 
+ */
+
+
+
+
+
+.single-slider.del-slider{
+	width: 545px !important;
+  }
+.deal-slider-main .slick-track {
+	width: 100% !important;
+  }
+.deal-slider-main .product-img {
+	width: 275px;
+	float: left;
+}
+.product-actio{
+	position: absolute;
+	background:none ;
+	bottom: 0;
+	text-align: center;
+	padding: 10px 0;
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: all 0.3s ease 0s;
+	z-index: 9;
+
+}
+.deal-slider-main .product-content{
+	position: relative;
+}
+.product-actio a{
+	border: 1px solid #c38749;
+	color: #c38749;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 1px;
+	width: 40px;
+}
+
+.product-actio a:hover{
+	background: #c38749;
+	color: #fff;
 }
